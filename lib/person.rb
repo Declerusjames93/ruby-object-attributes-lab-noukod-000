@@ -2,7 +2,7 @@
 
 
 class Person
-def initialize(fname)
+def initialize(fname,n_job)
 @fname = fname
 
 end
