@@ -2,7 +2,7 @@
 
 
 class Person
-def initialize(fname, n_job)
+def initialize(fname)
 @fname = fname
 @n_job =n_job
 end
@@ -15,7 +15,10 @@ end
 def name
 puts "#{@fname}"
 end
+def initialize(n_job)
 
+@n_job =n_job
+end
 def job(job_name)
 
   @n_job = job_name
