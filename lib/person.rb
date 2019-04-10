@@ -16,4 +16,14 @@ def name
 puts "#{@fname}"
 end
 
+def job(job_name)
+  
+  @n_job = job_name
+end
+
+def job
+  puts "#{@job_name}"
+end
+
+
 end
