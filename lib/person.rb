@@ -17,7 +17,7 @@ puts "#{@fname}"
 end
 
 def job(job_name)
-  
+
   @n_job = job_name
 end
 
